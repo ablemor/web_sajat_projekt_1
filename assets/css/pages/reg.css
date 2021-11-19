@@ -1,0 +1,22 @@
+#reg_module
+{
+    padding-top: 50px;
+    text-align: center;
+}
+#reg_module table
+{
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+#reg_module input[type="submit"]
+{
+    width: 100%;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#reg_module td
+{
+    font-weight: bold;
+    text-align: justify;
+}

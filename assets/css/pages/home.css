@@ -1,0 +1,26 @@
+#header_navbar
+{
+    float: right;
+}
+#login_details
+{
+    padding-top: 50px;
+    text-align: center;
+}
+#login_details table
+{
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+#login_details input[type="submit"]
+{
+    width: 100%;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#login_details td
+{
+    font-weight: bold;
+    text-align: justify;
+}

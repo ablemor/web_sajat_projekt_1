@@ -1,0 +1,53 @@
+
+.navbar :nth-child(4)
+{
+    color: #edd207;
+}
+#nev
+{
+    border-radius: 50px;
+}
+#kapcsolat_main
+{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 150px;
+    font-size: 20px;
+}
+table tr td
+{
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+#kapcsolat_main img
+{
+    width: 255px;
+}
+#kapcsolat_table tr td
+{
+    background-color: orange;
+}
+#element_1, #element_2, #title
+{
+    font-variant: small-caps;
+}
+#support_table
+{
+    margin: 0 auto;
+}
+#table_text_1, #table_text_2, #table_text_3, #title
+{
+    font-weight: bold;
+}
+textarea
+{
+    width: 300px;
+    height: 150px;
+    resize: none;
+}
+#bekuld{
+    width: 100%;
+    border-radius: 25px;
+    background-color: lightblue;
+}

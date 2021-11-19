@@ -1,0 +1,68 @@
+<!-- Gedeon
+    13.B
+    Frissítve: 2021.11.12 - 9:18 
+    Version: v0.1
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\assets/css/main.css">
+    <link rel="stylesheet" href="..\assets/css/pages/reg.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="icon" type="image/x-icon" href="..\assets/icons/csgo.ico">
+    <title>Regisztráció</title>
+</head>
+<body>
+    <a href="login.html"><input class="gomb" type="button" value="Bejelentkezés"></a>
+    <a href="reg.html"><input class="gomb" type="button" value="Regisztráció"> </a>
+    <!-- KEPEK -->
+    <div id="banner_images">
+        <img id="banner_1" src="..\assets/images/background/bg_1.jpg">
+    </div>
+    <!-- KEPEK -->
+    <div class="navbar">
+        <a href="..\index.html">Főoldal</a>
+        <a href="celzas.html">Célzás</a>
+        <a href="grafika.html">Grafika</a>
+        <a href="egyeb.html">Egyéb</a>
+    </div>
+
+    <div id="reg_module">
+        <h1>Regisztráció</h1>
+        <hr>
+        <form action="home.html" method="POST">
+        <table>
+            <tr>
+                <td>Felhasználónév</td>
+                <td><input type="text" placeholder="Minimum 4 karakter"></td>
+            </tr>
+            <tr>
+                <td>E-mail cím</td>
+                <td><input type="email" placeholder="Érvényes e-mail cím"></td>
+            </tr>
+            <tr>
+                <td>Jelszó</td>
+                <td><input type="password" placeholder="Erős jelszó"></td>
+            </tr>
+            <tr>
+                <td>Jelszó újra</td>
+                <td><input type="password" placeholder="Erős jelszó"></td>
+            </tr>
+            <tr>
+                <td>Telefonszám</td>
+                <td><input type="number" placeholder="06 ... ..."></td>
+            </tr>
+            <tr>
+                <td>Mi magyarország fővárosa?</td>
+                <td><input type="text" placeholder="B?"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Regisztráció"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+#al_title
+{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+#header
+{
+    display: block;
+    float: left;
+}
+#icon_1
+{
+    padding-top: 30px;
+    font-size: 35px;
+}
+#notification img
+{
+    display: inline block;
+    float: left;
+    pointer-events: none;
+}
+#notification i
+{
+    padding-top: 105px;
+}
+.navbar :nth-child(1)
+{
+    color: #edd207;
+}

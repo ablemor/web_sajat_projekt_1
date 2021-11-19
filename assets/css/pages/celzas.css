@@ -1,0 +1,36 @@
+#main_page
+{
+    font-size: 15px;
+    padding-top: 50px;
+    float: left;
+}
+#main_page :nth-child(3)
+{
+    font-size: 25px;
+}
+#main_page li
+{
+    font-size: 20px;
+}
+.navbar :nth-child(2)
+{
+    color: #edd207;
+}
+#main_page_images img
+{
+    display: block;
+    width: 500px;
+    float: right;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    pointer-events: none;
+}
+#main_page a:hover
+{
+    color: green;
+}
+#main_page a
+{
+    color: black;
+    font-style: italic;
+}
