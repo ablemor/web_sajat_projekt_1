@@ -24,3 +24,38 @@
     font-weight: bold;
     text-align: justify;
 }
+.avatar_bal
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    pointer-events: none;
+    padding-top: 25px;
+    padding-right: 70%;
+}
+#chatbox_bal, #chatbox_jobb
+{
+    background-color: grey;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    height: 125px;
+}
+#chatbox img
+{
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#chatbox table p
+{
+    font-size: 20px;
+    padding-bottom: 30%;
+}
+#chatbox h1
+{
+    text-align: center;
+}
